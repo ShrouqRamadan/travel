@@ -344,6 +344,110 @@ padding: 50px;
 .dark .re {
     background-color: gray;
 }
+.pink{
+    background-color: rosybrown;
+}
+.pink .r1{
+    background-color: rosybrown;
+}
+.pink .btmb{
+    /* background-color: ; */
+    color: white;
+}
+.pink .h2{
+    color: white;
+}
+.pink .h2abouut{
+    background-color: rosybrown;
+    color: white;
+}
+.pink .ss{
+    color: rosybrown;
+}
+.pink .sh{
+    background-color: rosybrown;
+    color: white;
+}
+.pink .way{
+    background-color: rosybrown;
+}
+.pink .boo{
+    background-color: rosybrown;
+    color: white;
+}
+.pink .re {
+    background-color: rosybrown;
+}
+
+.sky{
+    background-color: rgb(124, 170, 201);
+}
+.sky .r1{
+    background-color: rgb(124, 170, 201);
+}
+.sky .btmb{
+    /* background-color: rgb(124, 170, 201); */
+    color: white;
+}
+.sky .h2{
+    color: white;
+}
+.sky .h2abouut{
+    background-color: rgb(124, 170, 201);
+    color: white;
+}
+.sky .ss{
+    color: white;
+}
+.sky .sh{
+    background-color: rgb(124, 170, 201);
+    color: white;
+}
+.sky .way{
+    background-color: rgb(124, 170, 201);
+}
+.sky .boo{
+    background-color: rgb(124, 170, 201);
+    color: white;
+}
+.sky .re {
+    background-color: rgb(124, 170, 201);
+}
+.green{
+    background-color: rgb(110, 180, 131) ;
+}
+.green .r1{
+    background-color: rgb(110, 180, 131) ;
+}
+.green .btmb{
+    /* background-color: ; */
+    color: white;
+}
+.green .h2{
+    color: white;
+}
+.green .h2abouut{
+    background-color: rgb(110, 180, 131) ;
+    color: white;
+}
+.green .ss{
+    color: rgb(110, 180, 131) ;
+}
+.green .sh{
+    background-color: rgb(110, 180, 131) ;
+    color: white;
+}
+.green .way{
+    background-color: rgb(110, 180, 131) ;
+}
+.green .boo{
+    background-color: rgb(110, 180, 131) ;
+    color: white;
+}
+.green .re {
+    background-color: rgb(110, 180, 131) ;
+}
+
 .color .btmb{
     background-color: red;
     color: white;
@@ -407,14 +511,46 @@ padding: 50px;
 .go{
 position: fixed;
 z-index: 51616;
-right: 10px;
+right: 40px;
 bottom: 10px;
 opacity: 0;
 
 }
-changemode{
+.ulcolor{
+    list-style-type: none;
+}
+.ulcolor .li1{
     background-color: black;
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+}
+.ulcolor .li2{
+    background-color: rgb(124, 170, 201);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+}
+.ulcolor .li3{
+    background-color: rosybrown;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+}
+.ulcolor .li4{
+    background-color:rgb(110, 180, 131) ;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+}
+.none{
+    display: none;
 }

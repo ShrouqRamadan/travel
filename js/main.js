@@ -44,9 +44,33 @@ let set=document.querySelector(".set")
 
 let body =document.querySelector('.body')
 set.onclick=function(){ 
-    body.classList.toggle("dark")
+    body.classList.toggle("dark");
+    body.classList.remove("green")
+    body.classList.remove("sky")
+    body.classList.remove("pink")
 }
 
+let set1=document.querySelector(".set1")
+set1.onclick=function(){ 
+    body.classList.toggle("sky")
+    body.classList.remove("green")
+    body.classList.remove("dark")
+    body.classList.remove("pink")
+}
+let set2=document.querySelector(".set2")
+set2.onclick=function(){ 
+    body.classList.toggle("pink")
+    body.classList.remove("green")
+    body.classList.remove("dark")
+    body.classList.remove("sky")
+}
+let set3=document.querySelector(".set3")
+set3.onclick=function(){ 
+    body.classList.toggle("green")
+    body.classList.remove("pink")
+    body.classList.remove("dark")
+    body.classList.remove("sky")
+}
 
 let red=document.querySelector(".red")
 red.onclick=function(){ 
@@ -59,3 +83,6 @@ blue.onclick=function(){
     // red.classList.remove();
 }
 
+$(".setting").click(function(){
+    $(".ulcolor").toggle();
+})
