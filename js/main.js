@@ -30,12 +30,14 @@ $(function() {
 $(window).scroll(function(){
     let x=$(window).scrollTop();
     if(x>450){
+        
         $('.navbar').css('background','black ')
         $('.go').css('opacity','1')
     }
    
     else{
         $('.navbar').css('background','transparent ')
+        
         $('.go').css('opacity','0')
     }
 })
